@@ -14,7 +14,7 @@ evaluate the quality of this model on the test sample.
 <img width="940" height="851" alt="изображение" src="https://github.com/user-attachments/assets/5ed5800a-e075-4921-ac89-b52712bcd83a" />
 
 
-# Output
+# Summary
 
 The UNet model showed a low IoU=0.3372 metric. This is due to the fact that the images contain artifacts from the doctor's monocle. 
 It is necessary to create an algorithm for their automatic pruning or apply the simplest algorithm for detecting moles, and then segmentation.
